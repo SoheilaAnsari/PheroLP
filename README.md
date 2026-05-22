@@ -29,7 +29,7 @@ acolp-link-prediction/
 The two implementation folders are kept self-contained on purpose: a few
 filenames are shared between them (`adj_gen.m`, `CN.m`, `NLC.m`,
 `sort_column1.m`, …) but the supervised and unsupervised versions are
-**not** identical — for example, `sort_column1.m` sorts ascending for
+**not** identical, for example, `sort_column1.m` sorts ascending for
 triangle search in the supervised code and descending for top-L ranking
 in the unsupervised code. Keep them separate when you run experiments.
 
@@ -51,7 +51,7 @@ on a 10-fold cross-validation split. Performance is reported in terms of
 
 The PH feature is the main contribution. Its design is inspired by the
 unsupervised ACO link prediction of Sherkat et al. (2015), but here the
-pheromone values are not used to score links directly — they are used as
+pheromone values are not used to score links directly, they are used as
 a **feature** that a downstream classifier can combine with other
 indices. The combined feature vector `SVM(NLC, CN, PH)` gives the best
 result on the largest benchmark (PolBlogs, AUP ≈ 0.90).
@@ -109,7 +109,7 @@ If you use this code or the PH feature in your own work, please cite
   title        = {{ACO-LP}: Supervised Link Prediction via
                   Ant-Colony Pheromone Features (MATLAB)},
   year         = {2018},
-  howpublished = {\url{https://github.com/<your-username>/acolp-link-prediction}}
+  howpublished = {\url{[https://github.com/<your-username>/acolp-link-prediction](https://github.com/SoheilaAnsari/PheroLP)}}
 }
 ```
 
