@@ -109,7 +109,7 @@ If you use this code or the PH feature in your own work, please cite
   title        = {{ACO-LP}: Supervised Link Prediction via
                   Ant-Colony Pheromone Features (MATLAB)},
   year         = {2018},
-  howpublished = {\url{[https://github.com/<your-username>/acolp-link-prediction](https://github.com/SoheilaAnsari/PheroLP)}}
+  howpublished = {{[https://github.com/<your-username>/acolp-link-prediction](https://github.com/SoheilaAnsari/PheroLP)}}
 }
 ```
 
@@ -133,37 +133,3 @@ the code:
 
 The ADASYN oversampling implementation in `Supervised/ADASYN.m`
 follows He, Bai, Garcia & Li (2008).
-
----
-
-## License
-
-The **code** in this repository is released under the **MIT License**
-(see [`LICENSE`](LICENSE)). The **manuscript PDF** in `paper/` is the
-intellectual property of the authors and is included here for reference;
-please do not redistribute it as your own work.
-
-The **datasets** in `data/` retain the licenses of their original
-sources — see `data/README.md` for per-dataset attribution.
-
----
-
-<div dir="rtl" lang="fa">
-
-## درباره این مخزن (فارسی)
-
-این مخزن، پیاده‌سازی MATLAB یک روش پیش‌بینی پیوند مبتنی بر یادگیری
-نظارت‌شده است که در آن یک ویژگی جدید مبتنی بر فرومون الگوریتم
-کلونی مورچگان (PH) در کنار ویژگی‌های کلاسیک Common Neighbor و
-Node-Link Clustering ترکیب می‌شود. کد بر روی هشت شبکهٔ واقعی
-(کوچک و بزرگ) ارزیابی شده است.
-
-پوشهٔ `Supervised/` شامل ۲۸ فایل پیاده‌سازی روش پیشنهادی است،
-و پوشهٔ `Unsupervised/` شامل ۱۲ فایل برای پیاده‌سازی روش‌های پایه
-(CN و NLC بدون ناظر) است. این دو پوشه به‌صورت مستقل نگه‌داری شده‌اند
-چون چند فایل هم‌نام در آن‌ها رفتار متفاوتی دارند (به‌ویژه
-`sort_column1.m`).
-
-برای راهنمای استفاده، فایل‌های `README.md` در هر پوشه را ببینید.
-
-</div>
