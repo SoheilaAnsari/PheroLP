@@ -1,0 +1,29 @@
+# MATLAB autosave files
+*.asv
+*.m~
+
+# MATLAB compiled artifacts
+*.mex*
+*.mlappinstall
+*.slxc
+
+# MATLAB project / cache
+.SimulinkProject/
+slprj/
+sccprj/
+codegen/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor scratch
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Internal change-tracking folder used during repo prep
+.changes_record/
