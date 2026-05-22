@@ -1,6 +1,6 @@
 # Datasets
 
-Eight real-world complex networks are used in the experiments — four
+Eight real-world complex networks are used in the experiments, four
 small-scale (≤ 1000 edges) and four large-scale. Every file in this
 folder is a published, freely available benchmark. Original sources
 and required citations are listed below.
