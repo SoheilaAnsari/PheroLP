@@ -8,12 +8,6 @@ uses an Ant-Colony-Optimization-derived **pheromone (PH) feature**, combined
 with the classical **Common Neighbor (CN)** and **Node-Link Clustering (NLC)**
 features, on eight real-world complex networks.
 
-This is the companion code for the manuscript
-*A Supervised Link Prediction Method Relied Upon Ant-Colony Optimization Algorithm*
-by **Soheila Ansari** and **Mohammad Reza Keyvanpour**
-(Department of Computer Engineering, Alzahra University). The manuscript
-draft lives in [`paper/`](paper/).
-
 ---
 
 ## What is in this repository
@@ -24,13 +18,12 @@ acolp-link-prediction/
 ├── CITATION.cff                  ← machine-readable citation
 ├── LICENSE                       ← MIT (code)
 ├── .gitignore
-├── paper/                        ← manuscript + thesis PDF
 ├── data/                         ← 8 benchmark networks (see data/README.md)
 ├── Supervised/                   ← supervised pipeline (28 files)
-│   └── Main.m                    ←   ⭐ entry point
+│   └── Main.m                    ←   entry point
 └── Unsupervised/                 ← unsupervised baselines (12 files)
-    ├── Unsupervised_CN_V1.m      ←   ⭐ CN baseline
-    └── Unsupervised_NLC_V0.m     ←   ⭐ NLC baseline
+    ├── Unsupervised_CN_V1.m      ←   CN baseline
+    └── Unsupervised_NLC_V0.m     ←   NLC baseline
 ```
 
 The two implementation folders are kept self-contained on purpose: a few
@@ -110,33 +103,18 @@ collection, KONECT, and the network repository.
 ## How to cite
 
 If you use this code or the PH feature in your own work, please cite
-the manuscript:
-
-```bibtex
-@unpublished{ansari2021acolp,
-  author = {Ansari, Soheila and Keyvanpour, Mohammad Reza},
-  title  = {A Supervised Link Prediction Method Relied Upon
-            Ant-Colony Optimization Algorithm},
-  note   = {Manuscript, Department of Computer Engineering,
-            Alzahra University, Tehran, Iran},
-  year   = {2021}
-}
 
 @misc{ansari2021acolp_code,
-  author       = {Ansari, Soheila and Keyvanpour, Mohammad Reza},
+  author       = {Ansari, Soheila},
   title        = {{ACO-LP}: Supervised Link Prediction via
                   Ant-Colony Pheromone Features (MATLAB)},
-  year         = {2021},
+  year         = {2018},
   howpublished = {\url{https://github.com/<your-username>/acolp-link-prediction}}
 }
 ```
 
 A `CITATION.cff` file is provided at the repo root so GitHub will show a
 **"Cite this repository"** button automatically.
-
-> If/when the manuscript is published, please update the `@unpublished`
-> entry above (and `CITATION.cff`) with the venue, volume, and DOI.
-
 ---
 
 ## Acknowledgments
@@ -155,9 +133,6 @@ the code:
 
 The ADASYN oversampling implementation in `Supervised/ADASYN.m`
 follows He, Bai, Garcia & Li (2008).
-
-Soheila thanks her thesis supervisor Dr. Mohammad Reza Keyvanpour for
-his patient and generous guidance throughout this project.
 
 ---
 
