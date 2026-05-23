@@ -2,18 +2,12 @@ cff-version: 1.2.0
 title: "ACO-LP: Supervised Link Prediction via Ant-Colony Pheromone Features"
 message: >
   If you use this software or the PH (pheromone) feature in your research,
-  please cite both the software and the accompanying manuscript.
+  please cite.
 type: software
 authors:
   - family-names: Ansari
     given-names: Soheila
-    affiliation: "Department of Computer Engineering, Alzahra University, Tehran, Iran"
-    email: soheilaansari@gmail.com
-  - family-names: Keyvanpour
-    given-names: Mohammad Reza
-    affiliation: "Department of Computer Engineering, Alzahra University, Tehran, Iran"
-    email: keyvanpour@alzahra.ac.ir
-repository-code: "https://github.com/<your-username>/acolp-link-prediction"
+repository-code: "https://github.com/SoheilaAnsari/PheroLP"
 abstract: >
   MATLAB implementation of a supervised missing-link prediction pipeline
   that uses an Ant-Colony-Optimization-derived pheromone feature, combined
@@ -32,15 +26,3 @@ keywords:
 license: MIT
 version: "1.0.0"
 date-released: "2021-04-05"
-preferred-citation:
-  type: unpublished
-  title: "A Supervised Link Prediction Method Relied Upon Ant-Colony Optimization Algorithm"
-  authors:
-    - family-names: Ansari
-      given-names: Soheila
-    - family-names: Keyvanpour
-      given-names: Mohammad Reza
-  year: 2021
-  notes: >
-    Manuscript, Department of Computer Engineering, Alzahra University,
-    Tehran, Iran. Update this entry once the paper is formally published.
